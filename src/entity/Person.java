@@ -5,7 +5,9 @@
  */
 package entity;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable{
     private String firstname;
     private String lastname;
     private String phone;
